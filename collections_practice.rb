@@ -16,7 +16,7 @@ end
 
 # expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
 def swap_elements(array)
-  array.rotate(2)
+  array.rotate.reverse
 end
 
 def reverse_array(array)
