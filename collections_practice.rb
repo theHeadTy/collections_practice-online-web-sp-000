@@ -53,20 +53,20 @@ def add_s(array)
   new
 end
 
-#find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
+sort_array_asc([25, 7, 1])
+sort_array_desc([25, 7, 14])
 
-#sum_array([11,4,7,8,9,100,134])
+sort_array_char_count(["dogs", "cat", "Horses"])
+
+swap_elements(["blake", "ashley", "scott"])
+
+reverse_array([12, 4, 35])
+
+kesha_maker(["blake", "ashley", "scott"])
+
+find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
+
+sum_array([11,4,7,8,9,100,134])
 
 add_s(["hand", "feet", "knee", "table"])
 
-
-#sort_array_asc([25, 7, 1])
-#sort_array_desc([25, 7, 14])
-
-#sort_array_char_count(["dogs", "cat", "Horses"])
-
-#swap_elements(["blake", "ashley", "scott"])
-
-#reverse_array([12, 4, 35])
-
-kesha_maker(["blake", "ashley", "scott"])
