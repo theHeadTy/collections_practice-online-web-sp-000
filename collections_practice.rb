@@ -31,14 +31,33 @@ def kesha_maker(array)
     #new << item.gsub(item[2], '$')
   #end
   #new
-  
   (0..array.size - 1).step { |n| 
     new << array[n].gsub(array[n][2], '$') 
   }
-
   new
-
 end
+
+def find_a(array)
+  array.keep_if { |a| a.start_with?('a') }
+end
+
+def sum_array(numbers)
+  numbers.sum
+end
+
+def add_s(array)
+  new = []
+  array.each_with_index do |arr, index|
+    new << ((index == 1) ? arr : "#{arr}s")
+  end
+  new
+end
+
+#find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
+
+#sum_array([11,4,7,8,9,100,134])
+
+add_s(["hand", "feet", "knee", "table"])
 
 
 #sort_array_asc([25, 7, 1])
